@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Module_10_3</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body class="body">
+    <section>
+        <div class="connect-block">
+            <button id="btn-connect" class="connect-block_btn-connect">Открыть соединение</button>
+            <button id="btn-disconnect" class="connect-block_btn-disconnect">Закрыть соединение</button>
+        </div>
+        <div id="message-block" class="message-block">
+        </div>
+        <div class="send-block">
+            <input id="input" class="send-block_input" type="text" placeholder="Введите сообщение...">
+            <div class="send-block_btn-container">
+                <button id="btn-geoposition" class="send-block_btn-send">
+                    <div class="geo-container">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                            <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+                        </svg>
+                    </div>
+                </button>
+                <button id="btn-send" class="send-block_btn-send">Отправить</button>
+            </div>
+        </div>
+    </section>
+    
+  <script src="script.js"></script>
+</body>
+</html>
