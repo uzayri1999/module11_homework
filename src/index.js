@@ -3,7 +3,7 @@ export function getPercents (percent, number) {
 
     if (typeof percent === 'number' && typeof number === 'number') {
 
-        // результат не может быть меньеше 1% и больше 100%
+        // результат не может быть меньше 1% и больше 100%
         if (1 <= result && result <= 100) {
             return `${percent}% от ${number} - это ${result}`;
         } else {
