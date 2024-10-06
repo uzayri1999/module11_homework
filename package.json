@@ -3,12 +3,20 @@
   "version": "1.0.0",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [
     "123"
   ],
   "author": "uzayri",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "@babel/core": "^7.25.7",
+    "@babel/preset-env": "^7.25.7",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "jquery": "^3.7.1",
+    "nodemon": "^3.1.7"
+  }
 }
